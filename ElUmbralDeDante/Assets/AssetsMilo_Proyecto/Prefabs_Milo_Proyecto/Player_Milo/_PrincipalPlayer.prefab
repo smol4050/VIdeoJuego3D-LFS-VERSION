@@ -155,6 +155,7 @@ MonoBehaviour:
   _moveSpeed: 2
   _runSpeed: 5
   _actualSpeed: 0
+  _speedLerpFactor: 5
   _gravity: 20
   _jumpHeight: 0.8
   _mouseSensitivity: 1.5
@@ -370,7 +371,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
